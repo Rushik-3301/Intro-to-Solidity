@@ -6,7 +6,13 @@
 # WHAT IS SOLIDITY USED FOR ?
 * Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms. It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system...
 
-* iF u want more information detail about solidity  -->click this link above link :-
+# Solidity advantages
+* Benefits of Solidity Programming Language is :-
+1) A simple, easy-to-use programming language to write smart contracts for dApps.
+2) An open-source, object-oriented high-level programming language.
+3) It provides an Application Binary Interface (ABI) to avoid syntax errors.
+ 
+* iF u want more  detail about solidity  <-- click this above link -->
 
 # Solidity – Types
 * Solidity is a statically typed language, which implies that the type of each of the variables should be specified. Data types allow the compiler to check the correct usage of the variables. The declared types have some default values called Zero-State, for example for bool the default value is False. Likewise other statically typed languages Solidity has Value types and Reference types which are defined below:
