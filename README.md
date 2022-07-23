@@ -25,5 +25,6 @@
 * Value type variables store their own data. These are the basic data types provided by solidity. These types of variables are always passed by value. The variables are copied wherever they are used in function arguments or assignment. Value type data types in solidity are listed below: 
 1) Boolean: This data type accepts only two values True or False.
 2) Integer: This data type is used to store integer values, int and uint are used to declare signed and unsigned integers respectively.
- 
-h
+3) Fixed Point Numbers: These data types are not fully supported in solidity yet, as per the Solidity documentation. They can be declared as fixed and unfixed for signed and unsigned fixed-point numbers of varying sizes respectively.
+4) Address: Address hold a 20-byte value which represents the size of an  Ethereum address. An address can be used to get balance or to transfer a balance by balance and transfer method respectively.
+5) Bytes and Strings: Bytes are used to store a fixed-sized character set while the string is used to store the character set equal to or more than a byte. The length of bytes is from 1 to 32, while the string has a dynamic length. Byte has an advantage that it uses less gas, so better to use when we know the length of data.
