@@ -3,6 +3,8 @@
 * Solidity is primary language for blockchains running platforms.
 * Solidity can be used to creating contracts like voting, blind auctions, crowdfunding, multi-signature wallets, etc.
 
+![download](https://user-images.githubusercontent.com/98481882/180621128-17ec866a-b928-4087-b714-dc7ad62e85b2.png)
+
 # WHAT IS SOLIDITY USED FOR ?
 * Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms. It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system...
 
