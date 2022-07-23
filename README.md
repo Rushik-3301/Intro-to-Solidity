@@ -1,4 +1,9 @@
 # Intro-to-Solidity...
-* Solidity is a high-level programming language designed for implementing smart contracts. It is statically-typed object-oriented language. Solidity is highly influenced by Python, c++, and JavaScript which runs on the Ethereum Virtual Machine(EVM).
+* Solidity is a high-level programming language designed for implementing smart contracts. It is statically-typed object-oriented language. Solidity is highly influenced by Python, c++, and JavaScript which runs on the Ethereum Virtual Machine(EVM).Solidity is the most used and stable Blockchain Programming language recommended by developers worldwide.Solidity is a programming language for writing smart contracts. Learn how to build your first smart contract on the Ethereum blockchain...
+
+* iF u want more information detail about solidity  -->click this link above link :
+
 # WHAT IS SOLIDITY USED FOR ?
-* Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms. It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system.
+* Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms. It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system...
+
+ 
