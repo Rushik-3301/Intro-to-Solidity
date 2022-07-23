@@ -1,1 +1,3 @@
-# Intro-to-Solidity
+# Intro-to-Solidity...
+Solidity is a high-level programming language designed for implementing smart contracts. It is statically-typed object-oriented language. Solidity is highly influenced by Python, c++, and JavaScript which runs on the Ethereum Virtual Machine(EVM).
+
