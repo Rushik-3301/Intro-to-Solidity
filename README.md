@@ -25,3 +25,4 @@
 1) Boolean: This data type accepts only two values True or False.
 2) Integer: This data type is used to store integer values, int and uint are used to declare signed and unsigned integers respectively.
  
+h
