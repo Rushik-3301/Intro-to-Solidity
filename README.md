@@ -7,8 +7,10 @@
 
 
 
-# WHAT IS SOLIDITY USED FOR ?
+# WHAT IS SOLIDITY USED AND BASED FOR ?
 * Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms. It's used to create smart contracts that implement business logic and generate a chain of transaction records in the blockchain system...
+* Solidity is designed based on existing programming languages like C++, Python, and JavaScript, so it uses similar language structures found in these languages, most likely to make it easy for developer adoption. If you are a JavaScript or C++ developer, this will look familiar to you.
+* Solidity is a statically typed programming language designed for developing smart contracts that run on the Ethereum Virtual Machine (EVM)
 
 # Solidity advantages
 * Benefits of Solidity Programming Language is :-
@@ -18,9 +20,12 @@
  
 * iF u want more  detail about solidity  <-- click this above link -->
 
+# INTRODUCTION TO SMART CONTRACTS..
+* A "smart contract" is simply a program that runs on the Ethereum blockchain. It's a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
+* Smart contracts are a type of Ethereum account.
+
 # Solidity – Types
 * Solidity is a statically typed language, which implies that the type of each of the variables should be specified. Data types allow the compiler to check the correct usage of the variables. The declared types have some default values called Zero-State, for example for bool the default value is False. Likewise other statically typed languages Solidity has Value types and Reference types which are defined below:
-
 
 
 # Value Types
@@ -30,7 +35,8 @@
 3) Fixed Point Numbers: These data types are not fully supported in solidity yet, as per the Solidity documentation. They can be declared as fixed and unfixed for signed and unsigned fixed-point numbers of varying sizes respectively.
 4) Address: Address hold a 20-byte value which represents the size of an  Ethereum address. An address can be used to get balance or to transfer a balance by balance and transfer method respectively.
 5) Bytes and Strings: Bytes are used to store a fixed-sized character set while the string is used to store the character set equal to or more than a byte. The length of bytes is from 1 to 32, while the string has a dynamic length. Byte has an advantage that it uses less gas, so better to use when we know the length of data.
-     ->Example: In the below example, the contract Types initializes the values of different types of Values Types.
+
+ * Example: In the below example, the contract Types initializes the values of different types of Values Types.
 // Solidity program to demonstrate
 // value types
 pragma solidity ^ 0.5.0;
@@ -61,3 +67,4 @@ contract Types {
 	}
 }
 
+#
