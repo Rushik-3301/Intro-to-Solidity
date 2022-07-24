@@ -32,7 +32,6 @@
 # Solidity – Types
 * Solidity is a statically typed language, which implies that the type of each of the variables should be specified. Data types allow the compiler to check the correct usage of the variables. The declared types have some default values called Zero-State, for example for bool the default value is False. Likewise other statically typed languages Solidity has Value types and Reference types which are defined below:
 
-
 # Value Types
 * Value type variables store their own data. These are the basic data types provided by solidity. These types of variables are always passed by value. The variables are copied wherever they are used in function arguments or assignment. Value type data types in solidity are listed below: 
 1) Boolean: This data type accepts only two values True or False.
@@ -56,7 +55,7 @@ contract Types {
 	int32 public int_var = -60313;
 
 	// Initializing String variable
-	string public str = "GeeksforGeeks";
+	string public str = "block chain";
 
 	// Initializing Byte variable
 	bytes1 public b = "a";
@@ -70,7 +69,14 @@ contract Types {
 	my_enum) {
 		return my_enum._geeks;
 	}
-}
+
+# HOW TO INSTALL SOLIDITY IN WINDOWS ?
+* The system requirement for this installation is:
+A 64-bit Windows 10 machine..
+* STEP 1:-Enable the Developer Mode in your computer settings, if it is not already enabled. To do this, go to “Settings,” which is denoted by the gear icon in the “Start” menu. 
+* Step 2:-Turn on the Windows Linux Subsystem feature. To do this, search once more for Windows features on the “Start” menu search box, as shown below.
+
+
 # SOLIDITY DEVELOPER
 
 ![1-2](https://user-images.githubusercontent.com/98481882/180642670-dff167c6-4e9b-4002-a2e0-e511ab670cf2.jpg)
