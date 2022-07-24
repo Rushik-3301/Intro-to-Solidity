@@ -22,8 +22,6 @@
 * Solidity is a statically typed language, which implies that the type of each of the variables should be specified. Data types allow the compiler to check the correct usage of the variables. The declared types have some default values called Zero-State, for example for bool the default value is False. Likewise other statically typed languages Solidity has Value types and Reference types which are defined below:
 
 
-![images](https://user-images.githubusercontent.com/98481882/180641412-c5cd8f46-dae3-4b0a-af1d-f4b924d69b4f.jpg)
-
 
 # Value Types
 * Value type variables store their own data. These are the basic data types provided by solidity. These types of variables are always passed by value. The variables are copied wherever they are used in function arguments or assignment. Value type data types in solidity are listed below: 
@@ -32,3 +30,34 @@
 3) Fixed Point Numbers: These data types are not fully supported in solidity yet, as per the Solidity documentation. They can be declared as fixed and unfixed for signed and unsigned fixed-point numbers of varying sizes respectively.
 4) Address: Address hold a 20-byte value which represents the size of an  Ethereum address. An address can be used to get balance or to transfer a balance by balance and transfer method respectively.
 5) Bytes and Strings: Bytes are used to store a fixed-sized character set while the string is used to store the character set equal to or more than a byte. The length of bytes is from 1 to 32, while the string has a dynamic length. Byte has an advantage that it uses less gas, so better to use when we know the length of data.
+     ->Example: In the below example, the contract Types initializes the values of different types of Values Types.
+// Solidity program to demonstrate
+// value types
+pragma solidity ^ 0.5.0;
+
+// Creating a contract
+contract Types {
+
+	// Initializing Bool variable
+	bool public boolean = false;
+	
+	// Initializing Integer variable
+	int32 public int_var = -60313;
+
+	// Initializing String variable
+	string public str = "GeeksforGeeks";
+
+	// Initializing Byte variable
+	bytes1 public b = "a";
+	
+	// Defining an enumerator
+	enum my_enum { geeks_, _for, _geeks }
+
+	// Defining a function to return
+	// values stored in an enumerator
+	function Enum() public pure returns(
+	my_enum) {
+		return my_enum._geeks;
+	}
+}
+
