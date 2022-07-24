@@ -69,6 +69,7 @@ contract Types {
 		return my_enum._geeks;
 	}
 }
+# SOLIDITY DEVELOPER
 
 ![1-2](https://user-images.githubusercontent.com/98481882/180642670-dff167c6-4e9b-4002-a2e0-e511ab670cf2.jpg)
 
