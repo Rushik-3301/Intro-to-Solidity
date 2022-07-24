@@ -24,6 +24,9 @@
 * A "smart contract" is simply a program that runs on the Ethereum blockchain. It's a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
 * Smart contracts are a type of Ethereum account.
 
+![download](https://user-images.githubusercontent.com/98481882/180642734-ffccdbbf-fbf6-48a8-83c3-4ec4009e2aaa.jpg)
+
+
 # Solidity – Types
 * Solidity is a statically typed language, which implies that the type of each of the variables should be specified. Data types allow the compiler to check the correct usage of the variables. The declared types have some default values called Zero-State, for example for bool the default value is False. Likewise other statically typed languages Solidity has Value types and Reference types which are defined below:
 
