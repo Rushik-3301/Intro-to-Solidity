@@ -77,3 +77,4 @@ contract Types {
 
 * A Solidity developer is a blockchain developer who works with smart contracts on Ethereum-based applications. A Solidity developer job description may include: Developing and deploying smart contracts. Auditing smart contracts. Communicating with users to translate business goals into technical requirements.
 * if u want to become a solidity developer first u need to learn the basics of programming. You need to know how to code in C++, JavaScript, or Python. Solidity requires some knowledge about object-oriented programming, and you should be familiar with data structures like lists and maps.
+* If you already have a basic knowledge of Javascript and a set training program to follow and build projects, then you can learn Solidity in just a few months.
