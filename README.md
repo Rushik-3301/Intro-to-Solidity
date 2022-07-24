@@ -21,6 +21,10 @@
 # Solidity – Types
 * Solidity is a statically typed language, which implies that the type of each of the variables should be specified. Data types allow the compiler to check the correct usage of the variables. The declared types have some default values called Zero-State, for example for bool the default value is False. Likewise other statically typed languages Solidity has Value types and Reference types which are defined below:
 
+
+![images](https://user-images.githubusercontent.com/98481882/180641412-c5cd8f46-dae3-4b0a-af1d-f4b924d69b4f.jpg)
+
+
 # Value Types
 * Value type variables store their own data. These are the basic data types provided by solidity. These types of variables are always passed by value. The variables are copied wherever they are used in function arguments or assignment. Value type data types in solidity are listed below: 
 1) Boolean: This data type accepts only two values True or False.
