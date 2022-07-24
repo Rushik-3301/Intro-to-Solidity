@@ -75,8 +75,19 @@ contract Types {
 A 64-bit Windows 10 machine..
 * STEP 1:-Enable the Developer Mode in your computer settings, if it is not already enabled. To do this, go to “Settings,” which is denoted by the gear icon in the “Start” menu. 
 * Step 2:-Turn on the Windows Linux Subsystem feature. To do this, search once more for Windows features on the “Start” menu search box, as shown below.
-Click on the top result of the search. A window will pop up. Scroll until you find “Window Subsystem for Linux” in the options list. Check the box next to it and click on “OK.”
-
+Click on the top result of the search. A window will pop up. Scroll until you find “Window Subsystem for Linux” in the options list. Check the box next to it and click on “OK.”After your system restarts, search for Bash on the “Start” menu search box and open the Bash shell. When opened, the Bash shell will prompt you to install Ubuntu for Windows. Follow the prompts and complete the download and installation of Ubuntu for Windows. Close and reopen the Bash shell for its new fresh look.At this point, you can run about any Linux command on the shell and install any Linux package. Move on to the next step.
+* Step 3:-Create a directory that will hold everything you are going to do with Solidity.
+Note: The Windows file system is located at /mnt/c in the Bash shell environment.
+To create this, you can call it solidityProject directory on the desktop. You can change the directory to the desktop as follows:
+cd/mnt/c/users/mypc/desktop/
+* Then, create the directory with the following command:
+mkdir solidityProject
+ Once more, change the directory to the new directory, as shown below:
+cd/mnt/c/users/mypc/desktop/solidityProject
+* Step4:-Install all necessary dependencies. Multiple methods exist to run Solidity on your local computer. We will use NodeJs.
+Install cURL on your Bash environment using the command below.
+ sudo apt install curl
+You will install the following dependencies
 
 
 # SOLIDITY DEVELOPER
