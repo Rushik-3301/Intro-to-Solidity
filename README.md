@@ -75,6 +75,8 @@ contract Types {
 A 64-bit Windows 10 machine..
 * STEP 1:-Enable the Developer Mode in your computer settings, if it is not already enabled. To do this, go to “Settings,” which is denoted by the gear icon in the “Start” menu. 
 * Step 2:-Turn on the Windows Linux Subsystem feature. To do this, search once more for Windows features on the “Start” menu search box, as shown below.
+Click on the top result of the search. A window will pop up. Scroll until you find “Window Subsystem for Linux” in the options list. Check the box next to it and click on “OK.”
+
 
 
 # SOLIDITY DEVELOPER
