@@ -20,7 +20,7 @@
 2) An open-source, object-oriented high-level programming language.
 3) It provides an Application Binary Interface (ABI) to avoid syntax errors.
  
-* iF u want more  detail about solidity  <-- click this above link -->
+* iF u want more  detail about solidity  ( click this above link ) --> xyz
 
 # INTRODUCTION TO SMART CONTRACTS..
 * A "smart contract" is simply a program that runs on the Ethereum blockchain. It's a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
