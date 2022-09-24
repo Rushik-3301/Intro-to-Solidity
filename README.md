@@ -15,7 +15,7 @@
 * Solidity is a statically typed programming language designed for developing smart contracts that run on the Ethereum Virtual Machine (EVM)
 
 # Solidity advantages
-* Benefits of Solidity Programming Language is :-
+* Benefits of Solidity Programming Language is :- 
 1) A simple, easy-to-use programming language to write smart contracts for dApps.
 2) An open-source, object-oriented high-level programming language.
 3) It provides an Application Binary Interface (ABI) to avoid syntax errors.
